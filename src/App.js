@@ -10,13 +10,13 @@ const App = () => {
       name: 'Mars Rover App',
       githubLink: 'https://github.com/Izzy-2023/seir-seal-project1',
       deployedLink: 'https://seir-seal-project1.vercel.app/',
-      image: 'https://i.imgur.com/rlWEtDb.png'
+      image: 'https://i.imgur.com/rlWEtDbl.png'
     },
     {
       name: 'Izzy Properties Inc',
       githubLink: 'https://github.com/Izzy-2023/seir-seal-unit2-week4-project2',
       deployedLink: 'https://project2-app.onrender.com/properties',
-      image: 'https://i.imgur.com/Uv7JU4f.png'
+      image: 'https://i.imgur.com/Uv7JU4fl.png'
       
     },
     // Add more projects as needed
