@@ -5,9 +5,9 @@ import '../ProjectCard.css'; // Import the CSS file for styling
 
 const ProjectCard = ({ name, githubLink, deployedLink, image }) => {
   const imageStyle = {
-    maxWidth: '50%', // Set the maximum width to maintain responsiveness
+    maxWidth: '100%', // Set the maximum width to maintain responsiveness
     height: 'auto',   // Allow the height to adjust proportionally
-    borderRadius: '4px', // Optional: Add border-radius for rounded corners
+    borderRadius: '8px', // Optional: Add border-radius for rounded corners
   };
   return (
     <div className="project-card">

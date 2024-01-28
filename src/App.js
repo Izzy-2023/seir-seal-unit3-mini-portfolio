@@ -3,6 +3,8 @@
 import React from 'react';
 import Header from './components/Header';
 import Projects from './components/Projects'
+import MainContent from './components/Main';
+import FooterContent from './components/Footer';
 
 const App = () => {
   const projects = [
@@ -29,9 +31,12 @@ const App = () => {
   
   return (
     <div>
+      
       <Header links={links} />
+      <MainContent/>
       <Projects projects={projects} />
-      {/* Add your other components/content here */}
+      <FooterContent/>
+      
     </div>
   );
 };

@@ -1,12 +1,14 @@
-import React from "react";
-import Projects from "./Projects";
+// main.js
 
-// the component function
-const Main = (links) => {
+import React from 'react';
 
-    //The Components Returned JSX
-    return <div className="Main"> <Projects/></div>
-}
+const MainContent = () => {
+  return (
+    <div>
+      <h1>Welcome to my Mini-Portfolio App!</h1>
+      <h4>This website will showcase the projects that I have completed at General Assembly</h4>
+    </div>
+  );
+};
 
-// export the component
-export default Main;
+export default MainContent;

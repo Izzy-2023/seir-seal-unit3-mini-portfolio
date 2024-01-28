@@ -18,7 +18,7 @@ const Project = ({ name, githubLink, deployedLink, image }) => {
 const Projects = ({ projects }) => {
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 >Projects</h2>
       {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />
       ))}
