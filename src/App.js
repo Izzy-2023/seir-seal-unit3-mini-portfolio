@@ -21,7 +21,13 @@ const App = () => {
       image: 'https://i.imgur.com/Uv7JU4fl.png'
       
     },
-    // Add more projects as needed
+    {
+      name: 'Trivia App',
+      githubLink: 'https://github.com/Izzy-2023/seir-seal-unit3-jeopardy',
+      deployedLink: 'https://seir-seal-unit3-jeopardy.vercel.app/',
+      image: 'https://i.imgur.com/brknP1rl.png'
+      
+    },
   ];
   const links = [
     { name: 'GitHub', url: 'https://github.com/Izzy-2023' },
