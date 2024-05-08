@@ -12,7 +12,7 @@ const App = () => {
       name: 'Mars Rover App',
       githubLink: 'https://github.com/Izzy-2023/seir-seal-project1',
       deployedLink: 'https://seir-seal-project1.vercel.app/',
-      image: 'https://i.imgur.com/rlWEtDbl.png'
+      image: 'https://i.imgur.com/rlWEtDbm.png'
     },
     {
       name: 'Pokedex',
@@ -31,7 +31,7 @@ const App = () => {
       name: 'Trivia App',
       githubLink: 'https://github.com/Izzy-2023/seir-seal-unit3-jeopardy',
       deployedLink: 'https://seir-seal-unit3-jeopardy.vercel.app/',
-      image: 'https://i.imgur.com/brknP1rl.png'
+      image: 'https://i.imgur.com/brknP1rm.png'
       
     },
     {
