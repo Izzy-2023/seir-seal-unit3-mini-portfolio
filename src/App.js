@@ -15,6 +15,12 @@ const App = () => {
       image: 'https://i.imgur.com/rlWEtDbl.png'
     },
     {
+      name: 'Pokedex',
+      githubLink: 'https://github.com/Izzy-2023/seir-seal-unit2-week3-pokedex',
+      deployedLink: 'https://pokedex-p9ae.onrender.com/pokemon',
+      image: 'https://i.imgur.com/IzMvw8l.png'
+    },
+    {
       name: 'Izzy Properties Inc',
       githubLink: 'https://github.com/Izzy-2023/seir-seal-unit2-week4-project2',
       deployedLink: 'https://project2-app.onrender.com/properties',
@@ -26,6 +32,13 @@ const App = () => {
       githubLink: 'https://github.com/Izzy-2023/seir-seal-unit3-jeopardy',
       deployedLink: 'https://seir-seal-unit3-jeopardy.vercel.app/',
       image: 'https://i.imgur.com/brknP1rl.png'
+      
+    },
+    {
+      name: 'E-Commerce App',
+      githubLink: 'https://github.com/Izzy-2023/seir-seal-unit4-project4-frontend',
+      deployedLink: 'https://seir-seal-unit4-project4-frontend.vercel.app/',
+      image: 'https://i.imgur.com/rIUcRdT.png'
       
     },
     {
