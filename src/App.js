@@ -28,6 +28,13 @@ const App = () => {
       image: 'https://i.imgur.com/brknP1rl.png'
       
     },
+    {
+      name: 'Blog App',
+      githubLink: 'https://github.com/Izzy-2023/seir-seal-capstone-frontend',
+      deployedLink: 'https://seir-seal-capstone-frontend.vercel.app/',
+      image: 'https://i.imgur.com/yhXKnsP.png'
+      
+    },
   ];
   const links = [
     { name: 'GitHub', url: 'https://github.com/Izzy-2023' },
