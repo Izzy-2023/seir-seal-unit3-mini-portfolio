@@ -52,7 +52,7 @@ const App = () => {
       name: 'To Do App',
       githubLink: 'https://github.com/Izzy-2023/web-app-frontend',
       deployedLink: 'https://web-app-frontend-nu.vercel.app/',
-      image: 'https://imgur.com/a/lQggFAU'
+      image: 'https://imgur.com/ANgMQgP'
       
     },
   ];
