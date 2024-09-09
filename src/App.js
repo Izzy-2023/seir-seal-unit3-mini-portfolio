@@ -48,6 +48,13 @@ const App = () => {
       image: 'https://i.imgur.com/yhXKnsPl.png'
       
     },
+    {
+      name: 'To Do App',
+      githubLink: 'https://github.com/Izzy-2023/web-app-frontend',
+      deployedLink: 'https://web-app-frontend-nu.vercel.app/',
+      image: 'https://imgur.com/a/lQggFAU'
+      
+    },
   ];
   const links = [
     { name: 'GitHub', url: 'https://github.com/Izzy-2023' },
