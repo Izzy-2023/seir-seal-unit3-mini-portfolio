@@ -3,21 +3,22 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background: #f0f4f8;
   color: #333;
 }
 
 /* Navigation Bar */
 .navbar {
-  background-color: #222;
-  padding: 10px 20px;
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
   margin: 0;
 }
@@ -30,15 +31,15 @@ h1 {
 }
 
 .nav-item {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: 500;
   font-size: 14px;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav-item a:hover {
@@ -50,7 +51,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
   max-width: 1100px;
   margin: auto;
 }
@@ -61,24 +62,28 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   background: white;
-  border-radius: 8px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   text-align: center;
-  max-width: 300px;
-  margin: auto;
-  height: 100%; /* Ensures all cards take full height */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Project Image */
 .project-image {
   width: 100%;
-  height: 150px;
+  height: 160px;
   object-fit: cover;
 }
 
-/* Ensuring content inside is evenly distributed */
+/* Project Content */
 .project-content {
-  flex-grow: 1; /* Makes content expand to fill space */
+  flex-grow: 1;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -86,38 +91,40 @@ h1 {
 }
 
 .project-content h3 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 5px 0;
+  color: #4A00E0;
 }
 
 /* Project Links */
 .project-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 12px;
+  margin-top: 12px;
 }
 
 .project-links a {
-  color: #007bff;
-  font-size: 13px;
+  background: #4A00E0;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
 }
 
 .project-links a:hover {
-  text-decoration: underline;
+  background: #8E2DE2;
 }
 
 /* Footer */
 .footer {
   text-align: center;
-  padding: 12px;
-  background-color: #222;
+  padding: 15px;
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
   color: white;
   font-size: 14px;
   margin-top: 20px;
 }
-
-
-
