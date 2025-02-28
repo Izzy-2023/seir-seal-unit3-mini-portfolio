@@ -69,9 +69,11 @@ h1 {
   width: 100%;
   max-width: 260px;
   margin: auto;
-  height: 100%; /* Makes all cards the same height */
+  height: 100%; /* Ensures cards are the same height */
+  min-height: 380px; /* Makes sure all cards have a minimum height */
 }
 
+/* Hover effect for the project cards */
 .project-card:hover {
   transform: scale(1.03);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -86,11 +88,12 @@ h1 {
 
 /* Project Content */
 .project-content {
-  flex-grow: 1; /* Ensures uniform height */
+  flex-grow: 1; /* Makes the card expand evenly */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Evenly spaces elements */
+  justify-content: space-between; /* Distributes content evenly */
   padding: 12px;
+  min-height: 150px; /* Ensures there is enough space for content */
 }
 
 .project-content h3 {
@@ -131,3 +134,15 @@ h1 {
   font-size: 13px;
   margin-top: 20px;
 }
+
+/* Heading 4 styles */
+h4 {
+  font-weight: normal; /* Removes boldness */
+  text-align: center;
+  font-size: 18px; /* Adjust font size if needed */
+  color: #333;
+  margin: 20px auto;
+}
+
+
+
