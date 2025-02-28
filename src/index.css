@@ -138,9 +138,9 @@ h1 {
 /* Heading 4 styles */
 h4 {
   font-weight: normal; /* Removes boldness */
-  text-align: center;
-  font-size: 18px; /* Adjust font size if needed */
-  color: #333;
+  text-align: left;
+  font-size: 14px; /* Adjust font size if needed */
+  color: #04ece4;
   margin: 20px auto;
 }
 
