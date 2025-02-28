@@ -1,30 +1,26 @@
 // Projects.js
 
 import React from 'react';
-import ProjectCard from'./ProjectCard'
-
-const Project = ({ name, githubLink, deployedLink, image }) => {
-  return (
-    <div>
-      <h3>{name}</h3>
-      <p>GitHub: <a href={githubLink} target="_blank" rel="noopener noreferrer">{githubLink}</a></p>
-      {deployedLink && <p>Deployed Site: <a href={deployedLink} target="_blank" rel="noopener noreferrer">{deployedLink}</a></p>}
-      <p>Image: <img src={image} alt={name} ></img></p>
-      <hr />
-    </div>
-  );
-};
 
 const Projects = ({ projects }) => {
   return (
-    <div>
-      <h2 >Projects</h2>
+    <section className="projects-container">
       {projects.map((project, index) => (
-        <ProjectCard key={index} {...project} />
+        <div key={index} className="project-card">
+          <img src={project.image} alt={project.name} className="project-image" />
+          <div className="project-content">
+            <h3>{project.name}</h3>
+            <div className="project-links">
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </div>
       ))}
-    </div>
+    </section>
   );
 };
 
 export default Projects;
+
 

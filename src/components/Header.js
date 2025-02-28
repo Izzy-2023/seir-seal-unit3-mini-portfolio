@@ -6,6 +6,7 @@ import '../index.css'
 const Header = ({ links }) => {
   return (
     <nav className="navbar">
+      <h1>My Portfolio</h1>
       <ul className="nav-list">
         {links.map((link, index) => (
           <li key={index} className="nav-item">
@@ -20,8 +21,3 @@ const Header = ({ links }) => {
 };
 
 export default Header;
-
-
-
-
-

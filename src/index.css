@@ -1,45 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+/* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
   background-color: #f4f4f4;
   color: #333;
 }
 
-/* Navbar */
+/* Navigation Bar */
 .navbar {
-  background: rgba(51, 51, 51, 0.8);
-  backdrop-filter: blur(5px);
-  padding: 15px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+  background-color: #222;
+  padding: 8px 20px;
   display: flex;
-  justify-content: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
+  margin: 0;
   padding: 0;
 }
 
 .nav-item {
-  margin-right: 20px;
+  margin: 0 15px;
 }
 
-a {
+.nav-item a {
   text-decoration: none;
-  color: white;
-  font-weight: 600;
-  transition: color 0.3s ease-in-out;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-a:hover {
+.nav-item a:hover {
   color: #ffcc00;
+}
+
+/* Header */
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Projects Section */
@@ -47,15 +50,14 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 50px;
-  margin-top: 80px;
+  padding: 20px;
 }
 
 .project-card {
   background: white;
   border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -63,25 +65,44 @@ a:hover {
   transform: scale(1.05);
 }
 
-.project-img {
+.project-image {
   width: 100%;
-  border-radius: 10px;
-  height: 200px;
+  height: 180px;
   object-fit: cover;
+}
+
+.project-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.project-content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.project-links {
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin: 5px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 .footer {
   text-align: center;
-  padding: 20px;
-  background: #333;
+  padding: 15px;
+  background-color: #222;
   color: white;
   margin-top: 30px;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .projects-container {
-    grid-template-columns: 1fr;
-  }
-}
