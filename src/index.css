@@ -9,8 +9,8 @@ body {
 
 /* Navigation Bar */
 .navbar {
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
-  padding: 15px 20px;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  padding: 12px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
   margin: 0;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 .nav-item {
-  margin: 0 15px;
+  margin: 0 12px;
 }
 
 .nav-item a {
@@ -49,10 +49,10 @@ h1 {
 /* Projects Section */
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 40px;
-  max-width: 1100px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 30px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -60,71 +60,74 @@ h1 {
 .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background: white;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  max-width: 260px;
+  margin: auto;
 }
 
 .project-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  transform: scale(1.03);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Project Image */
 .project-image {
   width: 100%;
-  height: 160px;
+  height: 140px;
   object-fit: cover;
 }
 
 /* Project Content */
 .project-content {
   flex-grow: 1;
-  padding: 15px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .project-content h3 {
-  font-size: 18px;
+  font-size: 16px;
   margin: 5px 0;
-  color: #4A00E0;
+  color: #0072ff;
 }
 
 /* Project Links */
 .project-links {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin-top: 12px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .project-links a {
-  background: #4A00E0;
+  background: #0072ff;
   color: white;
-  padding: 8px 12px;
+  padding: 7px 10px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   transition: background 0.3s ease-in-out;
 }
 
 .project-links a:hover {
-  background: #8E2DE2;
+  background: #0057cc;
 }
 
 /* Footer */
 .footer {
   text-align: center;
-  padding: 15px;
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  padding: 12px;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 20px;
 }
+
