@@ -6,7 +6,7 @@ import '../index.css'
 const Header = ({ links }) => {
   return (
     <nav className="navbar">
-      <h1>My Portfolio</h1>
+      <h1>Welcome to My Portfolio Website</h1>
       <ul className="nav-list">
         {links.map((link, index) => (
           <li key={index} className="nav-item">
